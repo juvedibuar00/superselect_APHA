@@ -1,3 +1,17 @@
+.group-33,
+.group-33 * {
+  box-sizing: border-box;
+}
+.group-33 {
+  position: relative;
+}
+.super-select {
+  color: #f4f9f6;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
 .group-38,
 .group-38 * {
   box-sizing: border-box;
@@ -12,6 +26,20 @@
   position: absolute;
   left: 0px;
   top: 0px;
+}
+.sair {
+  width: 96px;
+  height: 61px;
+  position: absolute;
+  left: 1243px;
+  top: 24px;
+}
+.sair2 {
+  color: #f4f9f6;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
 }
 .rectangle-31 {
   background: #044108;
@@ -37,7 +65,7 @@
   width: 75px;
   height: 77px;
   position: absolute;
-  left: 1360px;
+  left: 1350px;
   top: 16px;
 }
 .ellipse-1 {
