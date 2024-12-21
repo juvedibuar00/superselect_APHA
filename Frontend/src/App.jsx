@@ -1,6 +1,7 @@
 
 import './App.css'
-import CadastroUsuario from './components/login/cadastroUsuario/cadastroUsuario'
+import CadastroProdutos from './components/cadastroProdutos/cadastroProdutos'
+// import CadastroUsuario from './components/login/cadastroUsuario/cadastroUsuario'
 // import TelaLogin from './components/login/loginUsuario/telaLogin'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
      {/* <TelaLogin/> */}
-     <CadastroUsuario/>
+     {/* <CadastroUsuario/> */}
+     <CadastroProdutos/>
      
     </>
   )
