@@ -1,18 +1,52 @@
-.login,
-.login * {
+.tela-login,
+.tela-login * {
   box-sizing: border-box;
 }
-.login {
+.tela-login {
   background: linear-gradient(
     180deg,
-    rgba(164, 195, 183, 1) 52.99999713897705%,
-    rgba(78, 94, 87, 1) 67.5000011920929%
+    rgba(99, 104, 106, 0.97) 0%,
+    rgba(194, 203, 208, 0.97) 100%
   );
   height: 1024px;
   position: relative;
-  overflow: hidden;
 }
-.rectangle-35 {
+.navbar {
+  width: 1440px;
+  height: 169px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-46 {
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 30.000001192092896%,
+    rgba(115, 115, 115, 1) 100%
+  );
+  width: 100%;
+  height: 169px;
+  /* position: absolute;
+  left: 0px;
+  top: 0px; */
+}
+.logo {
+  border-radius: 50%;
+  width: 134px;
+  height: 118px;
+  position: absolute;
+  left: 22px;
+  top: 25px;
+  object-fit: cover;
+}
+.form {
+  width: 619px;
+  height: 599px;
+  position: absolute;
+  left: 410.5px;
+  top: 242px;
+}
+.rectangle-47 {
   background: linear-gradient(
     180deg,
     rgba(217, 217, 217, 1) 40.99999964237213%,
@@ -25,15 +59,15 @@
   width: 619px;
   height: 599px;
   position: absolute;
-  left: 393px;
-  top: 110px;
+  left: 0px;
+  top: 0px;
 }
 .foto-usuario {
-  width: 103px;
-  height: 118px;
+  width: 96px;
+  height: 128px;
   position: absolute;
-  left: 651px;
-  top: 110px;
+  left: 261.5px;
+  top: 4px;
 }
 .group-41 {
   position: absolute;
@@ -77,8 +111,8 @@
   width: 570px;
   height: 72px;
   position: absolute;
-  left: 414px;
-  top: 289px;
+  left: 20.5px;
+  top: 179px;
 }
 .rectangle-36 {
   width: 570px;
@@ -114,8 +148,8 @@
   width: 184px;
   height: 36px;
   position: absolute;
-  left: 628px;
-  top: 624px;
+  left: 234.5px;
+  top: 514px;
 }
 .cadastre-se {
   color: #0a0101;
@@ -135,8 +169,8 @@
   width: 570px;
   height: 54px;
   position: absolute;
-  left: 414px;
-  top: 408px;
+  left: 20.5px;
+  top: 298px;
 }
 .rectangle-37 {
   width: 570px;
@@ -168,12 +202,12 @@
   top: 0px;
   object-fit: cover;
 }
-.login2 {
+.login {
   width: 308px;
   height: 51px;
   position: absolute;
-  left: 566px;
-  top: 558px;
+  left: 172.5px;
+  top: 448px;
 }
 .rectangle-38 {
   background: #543b3b;
@@ -184,7 +218,7 @@
   left: 0px;
   top: 0px;
 }
-.login3 {
+.login2 {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Bold", sans-serif;
@@ -196,4 +230,20 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+.rectangle-362 {
+  width: 570px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  overflow: visible;
+}
+.rectangle-372 {
+  width: 570px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: visible;
 }

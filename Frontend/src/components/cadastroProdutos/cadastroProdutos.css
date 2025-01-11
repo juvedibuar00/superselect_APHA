@@ -2,19 +2,22 @@
 .cadastro-produtos * {
   box-sizing: border-box;
 }
+
 .cadastro-produtos {
   background: #fcf2f2;
-  height: 1024px;
+  height: 900px;
   position: relative;
   overflow: hidden;
 }
+
 .frame-15 {
-  width: 900px;
+  width: 500px;
   height: 137px;
   position: absolute;
   left: 28px;
   top: 144px;
 }
+
 .rectangle-28 {
   background: #fcf0f0;
   width: 879px;
@@ -24,6 +27,7 @@
   top: 68px;
   box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 .nome-do-produto {
   color: #000000;
   text-align: left;
@@ -34,6 +38,7 @@
   left: 0px;
   top: 0px;
 }
+
 .digite-o-nome-do-produto-aqui {
   color: #a39797;
   text-align: left;
@@ -44,6 +49,7 @@
   left: 0px;
   top: 89px;
 }
+
 .frame-16 {
   width: 900px;
   height: 137px;
@@ -51,6 +57,7 @@
   left: 28px;
   top: 305px;
 }
+
 .descri-o {
   color: #000000;
   text-align: left;
@@ -61,6 +68,7 @@
   left: 0px;
   top: 0px;
 }
+
 .ex-batata-doce {
   color: #a39797;
   text-align: left;
@@ -71,6 +79,7 @@
   left: 0px;
   top: 89px;
 }
+
 .frame-17 {
   width: 900px;
   height: 137px;
@@ -78,6 +87,7 @@
   left: 28px;
   top: 466px;
 }
+
 .pre-o-r {
   color: #000000;
   text-align: left;
@@ -88,6 +98,7 @@
   left: 0px;
   top: 0px;
 }
+
 ._0-00 {
   color: #a39797;
   text-align: left;
@@ -98,6 +109,7 @@
   left: 0px;
   top: 89px;
 }
+
 .categoria {
   width: 900px;
   height: 137px;
@@ -105,6 +117,7 @@
   left: 28px;
   top: 627px;
 }
+
 .frame-18 {
   width: 900px;
   height: 137px;
@@ -112,6 +125,7 @@
   left: 0px;
   top: 0px;
 }
+
 .categoria2 {
   color: #000000;
   text-align: left;
@@ -122,6 +136,7 @@
   left: 0px;
   top: 0px;
 }
+
 .selecione-a-categoria-do-produto {
   color: #a39797;
   text-align: left;
@@ -132,6 +147,7 @@
   left: 0px;
   top: 89px;
 }
+
 .expand-arrow {
   width: 90px;
   height: 90px;
@@ -140,6 +156,7 @@
   top: 44px;
   object-fit: cover;
 }
+
 .data-validade {
   width: 900px;
   height: 119px;
@@ -147,6 +164,7 @@
   left: 18px;
   top: 796px;
 }
+
 .frame-19 {
   width: 900px;
   height: 119px;
@@ -154,6 +172,7 @@
   left: 0px;
   top: 0px;
 }
+
 .data-de-validade {
   color: #000000;
   text-align: left;
@@ -164,6 +183,7 @@
   left: 0px;
   top: 0px;
 }
+
 .dd-mm-aaaa {
   color: #a39797;
   text-align: left;
@@ -174,6 +194,7 @@
   left: 0px;
   top: 89px;
 }
+
 .schedule {
   width: 67px;
   height: 70px;
@@ -182,6 +203,7 @@
   top: 59px;
   object-fit: cover;
 }
+
 .frame-20 {
   width: 195px;
   height: 58px;
@@ -189,6 +211,7 @@
   left: 928px;
   top: 604px;
 }
+
 .rectangle-29 {
   background: #033163;
   border-radius: 50px;
@@ -198,6 +221,7 @@
   left: 0px;
   top: 0px;
 }
+
 .salvar {
   color: #fbf4f4;
   text-align: left;
@@ -208,6 +232,7 @@
   left: 53px;
   top: 11px;
 }
+
 .frame-21 {
   width: 195px;
   height: 58px;
@@ -215,6 +240,7 @@
   left: 1221px;
   top: 604px;
 }
+
 .rectangle-292 {
   background: #e3532f;
   border-radius: 50px;
@@ -224,6 +250,7 @@
   left: 0px;
   top: 0px;
 }
+
 .cancelar {
   color: #fbf4f4;
   text-align: left;
@@ -234,6 +261,7 @@
   left: 31px;
   top: 11px;
 }
+
 .rodap {
   background: #050605;
   width: 1440px;
@@ -242,10 +270,12 @@
   left: 0px;
   top: 947px;
 }
+
 .group-38 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-30 {
   background: #d9d9d9;
   width: 1440px;
@@ -254,6 +284,7 @@
   left: 0px;
   top: 0px;
 }
+
 .rectangle-31 {
   background: #044108;
   width: 1440px;
@@ -262,18 +293,18 @@
   left: 0px;
   top: 0px;
 }
+
 .rectangle-32 {
-  background: linear-gradient(
-    90deg,
-    rgba(4, 65, 8, 1) 75%,
-    rgba(11, 167, 22, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(4, 65, 8, 1) 75%,
+      rgba(11, 167, 22, 1) 100%);
   width: 1440px;
   height: 102px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
+
 .frame-22 {
   width: 75px;
   height: 77px;
@@ -281,6 +312,7 @@
   left: 1360px;
   top: 16px;
 }
+
 .ellipse-1 {
   background: #d9d9d9;
   border-radius: 50%;
@@ -290,6 +322,7 @@
   left: 0px;
   top: 0px;
 }
+
 .user-account {
   width: 50px;
   height: 53px;
@@ -298,6 +331,7 @@
   top: 12px;
   object-fit: cover;
 }
+
 .super-select {
   color: #f4f9f6;
   text-align: center;
@@ -308,6 +342,7 @@
   left: 10px;
   top: 0px;
 }
+
 .sair {
   width: 96px;
   height: 61px;
@@ -315,6 +350,7 @@
   left: 1253px;
   top: 21px;
 }
+
 .sair2 {
   color: #f4f9f6;
   text-align: center;
@@ -325,6 +361,7 @@
   left: 0px;
   top: 0px;
 }
+
 .cadastrados {
   width: 315px;
   height: 61px;
@@ -332,6 +369,7 @@
   left: 673px;
   top: 12px;
 }
+
 .cadastrados2 {
   color: #f4f9f6;
   text-align: center;
@@ -342,6 +380,7 @@
   left: 0px;
   top: 0px;
 }
+
 .super-select-todos-os-direitos-reservados {
   color: #c8e7ea;
   text-align: center;
@@ -352,6 +391,7 @@
   left: 324px;
   top: 964px;
 }
+
 .rectangle-33 {
   background: #d9d9d9;
   width: 491px;
@@ -360,6 +400,7 @@
   left: 925px;
   top: 114px;
 }
+
 .ou {
   color: #000000;
   text-align: left;
@@ -370,6 +411,7 @@
   left: 1145px;
   top: 335px;
 }
+
 .upload-local {
   width: 241px;
   height: 200px;
@@ -377,6 +419,7 @@
   left: 1051px;
   top: 144px;
 }
+
 .fa-a-upload {
   color: #000000;
   text-align: left;
@@ -387,6 +430,7 @@
   left: 0px;
   top: 0px;
 }
+
 .upload-local2 {
   width: 229px;
   height: 155px;
@@ -394,6 +438,7 @@
   left: 5px;
   top: 45px;
 }
+
 .upload-to-the-cloud {
   width: 208px;
   height: 140px;
@@ -402,6 +447,7 @@
   top: 0px;
   object-fit: cover;
 }
+
 .web-search {
   width: 441px;
   height: 90px;
@@ -409,6 +455,7 @@
   left: 944px;
   top: 408px;
 }
+
 .procure-na-web {
   color: #000000;
   text-align: left;
@@ -419,6 +466,7 @@
   left: 0px;
   top: 34px;
 }
+
 .external-link {
   width: 90px;
   height: 90px;

@@ -83,4 +83,4 @@ function CadastroProdutos() {
     )
 }
 
-export default cadastroProdutos
+export default CadastroProdutos
