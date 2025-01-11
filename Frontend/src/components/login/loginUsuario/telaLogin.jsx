@@ -4,67 +4,46 @@ import './telaLogin.css'
 
 function TelaLogin() {
     return (
-        <div class="tela-login">
-  <div class="navbar">
-    <div class="rectangle-46"></div>
-    <img class="logo" src="logo0.png" />
-  </div>
-  <div class="form">
-    <div class="rectangle-47"></div>
-    <div class="foto-usuario">
-      <div class="group-40">
-        <div class="group-39">
-          <div class="ellipse-2"></div>
-        </div>
-        <div class="team"></div>
+      <>
+      <nav class="navbar bg-body-tertiary position-sticky">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://t3.ftcdn.net/jpg/03/64/04/62/360_F_364046237_vNzvuBopD8UQO6cb78djjLZ7WaECfNDR.jpg" alt="Bootstrap" width="100" height="90"/>
+        </a>
       </div>
-      <img class="user-male" src="user-male0.png" />
-    </div>
-    <div class="email">
-      <img class="rectangle-36" src="rectangle-360.svg" />
-      <img class="gmail-logo" src="gmail-logo0.png" />
-      <div class="e-mail">E-mail</div>
-    </div>
-    <div class="cadastrar-se">
-      <div class="cadastre-se">Cadastre-se</div>
-    </div>
-    <div class="password">
-      <img class="rectangle-37" src="rectangle-370.svg" />
-      <div class="password2">Password</div>
-      <img class="lock" src="lock0.png" />
-    </div>
-    <div class="login">
-      <div class="rectangle-38"></div>
-      <div class="login2">Login</div>
-    </div>
-    <div class="foto-usuario">
-      <div class="group-40">
-        <div class="group-39">
-          <div class="ellipse-2"></div>
+    </nav>
+    
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Login</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <form>
+
+            <div class="mb-3 mt-6 text-center ">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" />
+            </div>
+
+            <div class="mb-3 text-center">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" />
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary w-50">Entrar</button>
+            </div>
+            <br />
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary w-50">Cadastre-se</button>
+            </div>
+
+          </form>
         </div>
-        <div class="team"></div>
       </div>
-      <img class="user-male" src="user-male1.png" />
     </div>
-    <div class="email">
-      <img class="rectangle-362" src="rectangle-361.svg" />
-      <img class="gmail-logo" src="gmail-logo1.png" />
-      <div class="e-mail">E-mail</div>
-    </div>
-    <div class="cadastrar-se">
-      <div class="cadastre-se">Cadastre-se</div>
-    </div>
-    <div class="password">
-      <img class="rectangle-372" src="rectangle-371.svg" />
-      <div class="password2">Password</div>
-      <img class="lock" src="lock1.png" />
-    </div>
-    <div class="login">
-      <div class="rectangle-38"></div>
-      <div class="login2">Login</div>
-    </div>
-  </div>
-</div>
+  </>
+
 
 
     )
