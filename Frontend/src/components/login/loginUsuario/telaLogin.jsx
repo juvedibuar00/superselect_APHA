@@ -5,13 +5,7 @@ import './telaLogin.css'
 function TelaLogin() {
     return (
       <>
-      <nav class="navbar bg-body-tertiary position-sticky">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="https://t3.ftcdn.net/jpg/03/64/04/62/360_F_364046237_vNzvuBopD8UQO6cb78djjLZ7WaECfNDR.jpg" alt="Bootstrap" width="100" height="90"/>
-        </a>
-      </div>
-    </nav>
+
     
     <div class="container mt-5">
       <h2 class="text-center mb-4">Login</h2>

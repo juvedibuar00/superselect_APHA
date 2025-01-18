@@ -1,0 +1,49 @@
+/* Estilos para o cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4; /* Cor de fundo do cabeçalho */
+}
+
+/* Estilo da logo, com imagem */
+.header-logo .logo {
+    height: 40px; /* Definindo uma altura para a logo */
+    width: auto; /* Largura automática para manter a proporção da imagem */
+}
+
+/* Estilo para as ações de login e cadastro, alinhadas à direita */
+.header-actions {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os botões */
+}
+
+/* Estilo para o botão de login */
+.login {
+    padding: 8px 16px;
+    background-color: #e6e9ec;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilo para o botão de cadastro */
+.cadastrar-se {
+    padding: 8px 16px;
+    background-color: #e6e9ec;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Adicionar efeitos de hover para os botões */
+.login:hover {
+    background-color: #0056b3;
+}
+
+.cadastrar-se:hover {
+    background-color: #218838;
+}

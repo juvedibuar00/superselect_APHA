@@ -1,0 +1,66 @@
+/* Estilos gerais da barra de navegação */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #aa7474;
+  padding: 10px 20px;
+}
+
+/* Estilo para o ícone do menu */
+.menu-bar {
+  height: 30px; /* Tamanho do ícone */
+  width: auto;
+}
+
+/* Estilo para o container dos links de navegação */
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os itens */
+  margin-left: auto; /* Empurra os itens para a direita */
+}
+
+/* Estilo dos itens de navegação */
+.nav-item {
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Alinha o item Home à esquerda */
+.home {
+  margin-right: auto; /* Faz o "Home" se alinhar à esquerda */
+  font-weight: bold;
+}
+
+/* Efeito de hover nos itens de navegação */
+.nav-item:hover {
+  background-color: #555;
+}
+
+/* Estilos de responsividade (opcional) */
+@media (max-width: 768px) {
+  /* A barra de navegação se reorganiza em coluna no mobile */
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px; /* Ajusta o padding para mobile */
+  }
+
+  /* Os itens de navegação são organizados em coluna no mobile */
+  .navbar-links {
+      flex-direction: column;
+      gap: 15px; /* Menor espaçamento entre os itens */
+      width: 100%; /* Ocupa toda a largura da tela */
+      align-items: flex-start; /* Alinha os itens à esquerda */
+  }
+
+  /* Ajuste dos itens de navegação no mobile */
+  .nav-item {
+      width: 100%; /* Faz com que os itens ocupem toda a largura */
+      text-align: left; /* Alinha o texto à esquerda */
+      padding: 12px 20px; /* Aumenta o padding para tornar os itens mais clicáveis */
+  }
+}
