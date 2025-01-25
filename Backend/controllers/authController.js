@@ -7,17 +7,19 @@ import jwt from 'jsonwebtoken'
 import {findUserByEmail, createUser} from '../models/userModels.js'
 
 export const register = async (req, res) => {
-    const {name, email, password} = req.body
+    const {nome, email, password} = req.body
 
     try {
         const userExists = findUserByEmail(email)
+        console.log('test')
         //useModel.js
         if(userExists) return res.status(400).json({message: 'Email já cadastrado'})
         const passwordHash = await bcrypt.hash(password, 10)
-        const userId = createUser(name, email, passwordHash)
+        const userId = createUser(nome, email, passwordHash)
 
         res.status(201).json( { message : 'Usuário criado', userId })
         } catch (error) {
+            console.log('deu ruim')
             res.status(500).json( {error: error.message})
         }
         

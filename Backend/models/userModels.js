@@ -9,9 +9,9 @@ export const findUserByEmail = async(email) => {
    
 }
 // Segundo método
-export const createUser = async (name, email, passwordHash) => {
+export const createUser = async (nome, email, passwordHash) => {
     const [result] = await pool.query (
-        'INSERT INTO users (name, emal, password) VALUES (?, ?, ?)', [name, email, passwordHash]
+        'INSERT INTO users (nome, email, senha) VALUES (?, ?, ?)', [nome, email, passwordHash]
     )
     return result.insertId
 }

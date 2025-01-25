@@ -3,7 +3,13 @@ import './telaLogin.css'
 // Todo vez que realizar a importação de autohtml, é preciso criar funçao para receber o codigo do auto, como feito a seguir.
 
 function TelaLogin() {
-    return (
+       // uteis para coletar dados do usuario
+      //  const [name, setName] = useState('');
+       const [email, setEmail] = useState('');
+       const [password, setPassword] = useState('');
+  
+  
+  return (
       <>
 
     
@@ -20,7 +26,11 @@ function TelaLogin() {
 
             <div class="mb-3 text-center">
               <label for="senha" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" />
+              <input name='password' type="password" class="form-control" id="senha" placeholder="Digite sua senha" 
+             onChange={(e) => setPassword(e.target.value)}
+             value={password}
+             required 
+             />
             </div>
 
             <div class="text-center">
