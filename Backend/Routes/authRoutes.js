@@ -3,8 +3,8 @@
 // const authenticateToken = require('../middlewares/authMiddlewares')
 
 import express from 'express'
-import {register, login} from '../controllers/authController'
-import authenticateToken from '../middlewares/authMiddlewares';
+import {register, login} from '../controllers/authController.js'
+import authenticateToken from '../middlewares/authMiddlewares.js';
 
 const router = express.Router();
 

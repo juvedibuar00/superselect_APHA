@@ -1,16 +1,20 @@
-const bcrypt = require ('bcrypt')
-const jwt = require('jsonwebtoken')
-const userModel = require('../models/userModels.js')
+// // const bcrypt = require ('bcrypt')
+// // const jwt = require('jsonwebtoken')
+// const userModel = require('../models/userModels.js')
 
-const register = async (req, res) => {
+import bcrypt from 'bcrypt'
+import jwt from 'jsonwebtoken'
+import {findUserByEmail, createUser} from '../models/userModels.js'
+
+export const register = async (req, res) => {
     const {name, email, password} = req.body
 
     try {
-        const userExists = userModel.findUserByEmail(email)
+        const userExists = findUserByEmail(email)
         //useModel.js
         if(userExists) return res.status(400).json({message: 'Email já cadastrado'})
         const passwordHash = await bcrypt.hash(password, 10)
-        const userId = userModel.createUser(name, email, passwordHash)
+        const userId = createUser(name, email, passwordHash)
 
         res.status(201).json( { message : 'Usuário criado', userId })
         } catch (error) {
@@ -20,7 +24,7 @@ const register = async (req, res) => {
     
 }
 
-const login = async (req, res) => {
+export const login = async (req, res) => {
     const {email, password} = req.body
 
     try {
@@ -38,5 +42,3 @@ const login = async (req, res) => {
         res.status(500).json( {error: error.message})
     }
 }
-
-module.exports = {register, login}
