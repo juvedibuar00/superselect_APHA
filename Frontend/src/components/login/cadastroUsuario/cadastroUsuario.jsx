@@ -44,18 +44,18 @@ function CadastroUsuario() {
             <form className="form-container " onSubmit={handleSubmit}>
 
 
-                <div className="input-group">
-                    <label htmlFor="fullName">Nome Completo</label>
-                    <input name='name' type="text" id="fullName" placeholder="Digite seu nome completo"
+            <div class="mb-3 mt-6  ">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu E-mail "
                         onChange={(e) => setName(e.target.value)}
                         value={name}
                         required
                     />
                 </div>
 
-                    <div className="input-group">
-                        <label htmlFor="email">E-mail</label>
-                        <input name='email' type="email" id="email" placeholder="Digite seu e-mail"
+                <div class="mb-3 mt-6  ">
+              <label for="email" class="form-label">Nome</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu Nome "
                             onChange={(e) => setEmail(e.target.value)}
                             value={email}
                             required
@@ -63,10 +63,9 @@ function CadastroUsuario() {
                     </div>
 
               
-                <div className="input-group">
-                    <label htmlFor="password">Senha</label>
-                    <input name='password' type="password" id="password"
-                        placeholder="Digite sua senha"
+                <div class="mb-3 mt-6  ">
+                    <label htmlFor="password">Senha</label> 
+                    <input name='password' type="password"  class="form-control" id="password"placeholder="Digite sua senha"
                         onChange={(e) => setPassword(e.target.value)}
                         value={password}
                         required
@@ -81,9 +80,9 @@ function CadastroUsuario() {
                 </div> */}
 
 
-                <div className="input-group">
+                <div class="mb-3 mt-6  ">
                     <label htmlFor="phone">Telefone</label>
-                    <input type="tel" id="phone" placeholder="Digite seu telefone" />
+                    <input type="tel" id="phone" class="form-control" placeholder="Digite seu telefone" />
                 </div>
                 <button className="submit-btn">Cadastrar-se</button>
             </form>
