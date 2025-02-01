@@ -41,7 +41,8 @@ function CadastroUsuario() {
             <div className="header">
                 <h1>Cadastro de Usuário</h1>
             </div>
-            <form className="form-container" onSubmit={handleSubmit}>
+            <form className="form-container " onSubmit={handleSubmit}>
+
 
                 <div className="input-group">
                     <label htmlFor="fullName">Nome Completo</label>
@@ -50,7 +51,7 @@ function CadastroUsuario() {
                         value={name}
                         required
                     />
-
+                </div>
 
                     <div className="input-group">
                         <label htmlFor="email">E-mail</label>
@@ -58,11 +59,10 @@ function CadastroUsuario() {
                             onChange={(e) => setEmail(e.target.value)}
                             value={email}
                             required
-
                         />
                     </div>
 
-                </div>
+              
                 <div className="input-group">
                     <label htmlFor="password">Senha</label>
                     <input name='password' type="password" id="password"
