@@ -1,0 +1,21 @@
+/* Fundo preto para toda a tela */
+body {
+    background-color: rgba(0, 0, 0, 0.885);
+    color: white; /* Para deixar o texto legível */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+/* Botões */
+.btn-primary {
+    background-color: #000000; /* Cor do botão */
+    border-color: hsla(60, 100%, 50%, 0.762);
+    color: white; /* Texto branco */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+    border-color: hsla(60, 100%, 50%, 0.762);
+    color: white; /* Garante que o texto continue branco no hover */
+  }

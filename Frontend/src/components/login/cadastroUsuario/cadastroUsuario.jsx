@@ -62,9 +62,6 @@ function CadastroUsuario() {
                         />
                     </div>
 
-
-
-
                 </div>
                 <div className="input-group">
                     <label htmlFor="password">Senha</label>
