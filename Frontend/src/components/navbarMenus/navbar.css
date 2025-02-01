@@ -3,7 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   background-color: #271f1f;
+=======
+  background-color: rgba(0, 0, 0, 0.885);
+>>>>>>> 9917f18253f992ce1a02dec32f9e71a9d9952800
   padding: 10px 20px;
 }
 
