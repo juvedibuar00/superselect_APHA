@@ -1,6 +1,7 @@
 import './cadastroUsuario.css';
 // Importações
 import { useState } from 'react';
+import { Link } from "react-router-dom"; // Importação do Link
 import axios from 'axios';
 
 function CadastroUsuario() {
@@ -20,15 +21,15 @@ function CadastroUsuario() {
         };
         console.log(dadosCadastro)
         axios.post('http://localhost:3001/auth/register', dadosCadastro)
-            .then(Response => {
-                console.log(Response.data);
+            .then(response => {
+                console.log(response.data);
                 alert('Usuário Cadastrado com Sucesso!!!');
                 setName('');
                 setEmail('');
                 setPassword('');
             })
             .catch(error => {
-                console.error('Erro ao Cadastrar Usuário:', error);
+                console.error('Erro ao Cadastrar Usuário:', error); 
                 // seError(error.response?.data || 'Erro desconhecido')
             });
 
@@ -85,10 +86,14 @@ function CadastroUsuario() {
                     <label htmlFor="phone">Telefone</label>
                     <input type="tel" id="phone" placeholder="Digite seu telefone" />
                 </div>
+
+
+                {/* <Link to="/cadastro" className="submit-btn">Cadastrar-se</Link> */}
+
                 <button className="submit-btn">Cadastrar-se</button>
             </form>
             <div className="footer">
-                <p>Já tem uma conta? <a href="/login">Login</a></p>
+                <p>Já tem uma conta? <a href="/">Login</a></p>
 
             </div>
         </div>

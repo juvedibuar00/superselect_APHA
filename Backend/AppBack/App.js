@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:5174' })); // Permitir requisições do frontend
+app.use(cors({ origin: 'http://localhost:5173' })); // Permitir requisições do frontend
 
 // Rotas
 app.use('/auth', authRoutes); // Prefixo para autenticação

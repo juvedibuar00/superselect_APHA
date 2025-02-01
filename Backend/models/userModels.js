@@ -5,7 +5,7 @@ import pool from '../config/db.js'
 // Primeiro método
 export const findUserByEmail = async(email) => {
     const [rows] = await pool.query('SELECT * FROM users WHERE email = ?', [email])
-    return rows [0]
+    return rows[0]
    
 }
 // Segundo método
